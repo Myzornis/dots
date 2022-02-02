@@ -1,0 +1,11 @@
+[user]
+	email = iamsivakmr@gmail.com
+	name = sivakumar
+[http]
+	sslVerify = false
+[init]
+	defaultBranch = main
+[color]
+	ui = true
+[core]
+	editor = nvim

@@ -1,0 +1,10 @@
+require "knight.options"
+require "knight.keybindings"
+require "knight.plugins"
+require "knight.colorscheme"
+require "knight.treesitter"
+require "knight.autopairs"
+require "knight.lualine"
+require "knight.autocommands"
+-- require "knight.cmp"
+

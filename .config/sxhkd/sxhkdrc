@@ -1,0 +1,23 @@
+#shutdown
+ctrl + F1 
+     echo |sudo -S shutdown -h now
+#reboot
+ctrl + F2
+     echo | sudo -S reboot
+  
+#increse volume
+XF86AudioRaiseVolume
+  volume up
+
+#decrease volume
+XF86AudioLowerVolume
+  volume down
+
+#nightmode
+XF86HomePage
+  nightmode
+
+#screenshot wiht selection
+XF86Calculator
+  maim --select | tee ~/pix/ss/$(date +%s).png | xclip -selection clipboard -t image/png
+
